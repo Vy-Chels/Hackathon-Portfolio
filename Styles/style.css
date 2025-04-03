@@ -171,3 +171,58 @@ footer {
     margin-top: 20px;
     color:#36e90e
 }
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack sidebar and content */
+    }
+
+    .sidebar {
+        width: 100%; /* Full width */
+        text-align: center;
+    }
+
+    .main-content {
+        padding: 10px;
+    }
+
+    .hero {
+        padding: 40px;
+    }
+
+    .section-card {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .progress-bar {
+        width: 100%;
+    }
+
+    .sidebar img {
+        width: 80px;
+    }
+
+    .btn, .cv-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .section-card {
+        font-size: 12px;
+    }
+}
