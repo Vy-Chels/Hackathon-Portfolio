@@ -3,7 +3,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
     font-size: larger;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/tech.jpg') no-repeat center center fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/tech.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
@@ -90,7 +90,7 @@ body {
     padding: 20px;
 }
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/Images/bacjground.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../Images/background.jpg') no-repeat center center/cover;
     padding: 80px;
     text-align: center;
     border-radius: 10px;
@@ -167,7 +167,7 @@ button {
 footer {
     text-align: center;
     padding: 20px;
-    background: url('/Images/pexels-pixabay-267350.jpg') repeating-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('/Images/pexels-pavel-danilyuk-5496464.jpg') no-repeat center center;
+    background: url('../Images/pexels-pixabay-267350.jpg') repeating-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url('/Images/pexels-pavel-danilyuk-5496464.jpg') no-repeat center center;
     margin-top: 20px;
     color:#36e90e
 }
